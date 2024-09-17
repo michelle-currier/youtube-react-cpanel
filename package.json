@@ -1,7 +1,7 @@
 {
   "name": "github-cpanel-react",
   "version": "1.0.2",
-  "homepage": "./",
+  "homepage": "info.mcurrier.com",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
