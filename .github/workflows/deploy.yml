@@ -23,10 +23,11 @@ jobs:
           npm run build
 
       - name: 📂 Sync files
-        uses: MichelleCurrier/youtube-react-cpanel/@main
+        uses: MichelleCurrier/youtube-react-cpanel@main
         with:
           server: ${{ secrets.GIT_CPANEL_REACT_SERVER }}
           username: ${{ secrets.GIT_CPANEL_REACT_USER }}
           password: ${{ secrets.GIT_CPANEL_REACT_PWD }}
           protocol: ${{ secrets.GIT_CPANEL_REACT_PROTOCOL }}
           local-dir: ./build/
+          remote-dir: /public_html/info.mcurrier/ # The remote directory on your cPanel
