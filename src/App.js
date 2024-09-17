@@ -1,24 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <h1>AUTO DEPLOYMENT TO CPANEL USING GITHUB ACTIONS - YOUTUBE TUTORIAL</h1>
+        <h1>
+          AUTO DEPLOYMENT TO CPANEL USING GITHUB ACTIONS - YOUTUBE TUTORIAL
+        </h1>
         <h4>GITHUB ACTIONS, REACT JS AND CPANEL AUTO DEPLOYMENT</h4>
-        <p>This change will appear on the website immediately. Like seriously no</p>
+        <p>
+          This change will appear on the website immediately. Like seriously no
+        </p>
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://www.youtube.com/watch?v=x_GZpOGyJpg"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          link to the TUTORIAL
         </a>
       </header>
     </div>
@@ -26,4 +30,3 @@ function App() {
 }
 
 export default App;
-
